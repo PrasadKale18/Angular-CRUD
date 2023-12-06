@@ -1,0 +1,104 @@
+.top {
+    margin-top: 50px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.invalid {
+    border: 2px solid #ff0000;
+}
+
+.clr {
+    color: #ff0000;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .a{
+    margin-left: 10px;
+  }
+
+  .delete{
+    height: 150px;
+    width: 350px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: rgb(168, 162, 152);
+    position: absolute;
+    box-shadow: 10px 10px 10px 10px rgb(109, 96, 96);
+    top: 230px;
+    left: 430px;
+    text-align: center;
+
+  }
+
+  .side{
+    margin-left: 5px;
+    background-color: black;
+  }
+
+  .side1{
+    margin-right: 5px;
+    background-color: red;
+  }
+
